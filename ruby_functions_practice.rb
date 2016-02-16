@@ -92,3 +92,6 @@ def volume_of_sphere(r)
  return ((4.0/3.0) * 3.14 *(r**3)).to_i
 end
 
+def days_until_christmas()
+
+end
