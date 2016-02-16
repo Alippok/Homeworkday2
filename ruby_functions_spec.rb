@@ -94,7 +94,7 @@ class Functions_Practice < MiniTest::Test
   def test_age_of_person()
   age = age_of_person(1987,10,16)
   assert_equal(28, age)#returning 29 because I am 28 and x amount of days old. I haven't specified days 
-  #so will round up?
+  #so will round up? Decided to put in '-1' to take the rounded up year off for final result.
   end
   # end
 

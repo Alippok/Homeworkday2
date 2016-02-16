@@ -102,5 +102,5 @@ def age_of_person(year, month, day)
   require 'date'
   dob = Date.new(year, month, day)
   today = Date.today
-  return  today.cwyear - dob.cwyear
+  return  (today.cwyear - dob.cwyear) - 1#Added this to take off the added rounded up year.
 end
