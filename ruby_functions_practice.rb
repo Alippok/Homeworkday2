@@ -95,5 +95,5 @@ end
 def days_until_christmas(year, month, day)
   require 'date' 
  today = Date.new(year, month, day)
-return today - Date.new(2016,12,25)
+return Date.new(2016,12,25) - today
 end

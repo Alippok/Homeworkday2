@@ -85,6 +85,8 @@ class Functions_Practice < MiniTest::Test
     result = days_until_christmas(2016, 2, 16)
     assert_equal(313, result)#returning "-313/1" as the difference between the two dates. Is difference
     #in Ruby denoted by a negative number? Why the "/1"?
+    #Returns positve number if second date is before first date declared so switched the date order 
+    #so reads 'What is the difference between Christmas day and now?'
 
   end
 
