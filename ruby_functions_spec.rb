@@ -83,7 +83,8 @@ class Functions_Practice < MiniTest::Test
   #Days until christmas, Calculate how many nights there are from today until Christmas morning
   def test_days_until_christmas()
     result = days_until_christmas(2016, 2, 16)
-    assert_equal(313, result)
+    assert_equal(313, result)#returning "-313/1" as the difference between the two dates. Is difference
+    #in Ruby denoted by a negative number? Why the "/1"?
 
   end
 
