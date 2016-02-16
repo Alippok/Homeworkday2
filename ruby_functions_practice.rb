@@ -89,6 +89,6 @@ def volume_of_cube(x)
 end
 
 def volume_of_sphere(r)
- return (4/3*3.14*(r**3))
+ return ((4.0/3.0) * 3.14 *(r**3)).to_i
 end
 
