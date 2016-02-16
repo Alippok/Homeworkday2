@@ -101,6 +101,6 @@ end
 def age_of_person(year, month, day)
   require 'date'
   dob = Date.new(year, month, day)
-  today = DateTime.now
+  today = Date.today
   return  today.cwyear - dob.cwyear
 end

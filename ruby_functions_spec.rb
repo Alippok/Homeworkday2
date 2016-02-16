@@ -93,7 +93,8 @@ class Functions_Practice < MiniTest::Test
   # #Given a date of birth, calculate how old a person born on that date would be
   def test_age_of_person()
   age = age_of_person(1987,10,16)
-  assert_equal(28, age)
+  assert_equal(28, age)#returning 29 because I am 28 and x amount of days old. I haven't specified days 
+  #so will round up?
   end
   # end
 
