@@ -93,6 +93,7 @@ def volume_of_sphere(r)
 end
 
 def days_until_christmas()
-today = ([start=Date::SCOTLAND])
-
+  require 'date' 
+ today = Date.new(2016,2,16)
+return today - Date.new(2016,12,25)
 end
