@@ -79,10 +79,10 @@ class Functions_Practice < MiniTest::Test
     #an integer (.to_i) to take the answers decimal places off as Ruby could not handle rounding etc.
   end
 
-  http://ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html
+  #http://ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html
   #Days until christmas, Calculate how many nights there are from today until Christmas morning
   def test_days_until_christmas()
-    result = days_until_christmas
+    result = days_until_christmas(2016, 2, 16)
     assert_equal(313, result)
 
   end
